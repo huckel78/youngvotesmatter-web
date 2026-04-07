@@ -10,18 +10,9 @@
 </head>
 <body>
 
-    <nav id="main-nav">
-        <a href="index.html" class="nav-logo"><span>Vote</span>ForDemocracy</a>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="index.html#platform">Platform</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="#register" class="nav-cta">Register Now</a></li>
-        </ul>
-    </nav>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <?php include 'header.php'; ?>
 
     <main id="main-content">
         <section class="hero hero-internal">
@@ -53,19 +44,12 @@
             <div style="margin-top: 5rem;" class="reveal">
                 <h3 style="font-family: 'Bebas Neue', sans-serif; font-size: 2rem; color: var(--white); margin-bottom: 1.5rem;">Major Institutional Partners</h3>
                 <p>A full disclosure report of our 2026 institutional partners will be published here prior to our Go-Live date. We pledge to disclose all donors contributing over $5,000 annually.</p>
-                <a href="contact.html" class="btn btn-outline" style="margin-top: 1rem;">Become a Founding Donor</a>
+                <a href="contact.php" class="btn btn-outline" style="margin-top: 1rem;">Become a Founding Donor</a>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <div class="logo"><span class="gold">VOTEFOR</span><span class="white">DEMOCRACY</span></div>
-                <p>Empowering Gen Z and Millennials to reclaim their democratic future.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Org</h4>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="funders.html" style
+    <?php include 'footer.php'; ?>
+
+</body>
+</html>
