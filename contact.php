@@ -10,18 +10,9 @@
 </head>
 <body>
 
-    <nav id="main-nav">
-        <a href="index.html" class="nav-logo"><span>Vote</span>ForDemocracy</a>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="index.html#platform">Platform</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html" style="color: var(--gold);">Contact</a></li>
-            <li><a href="#register" class="nav-cta">Register Now</a></li>
-        </ul>
-    </nav>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <?php include 'header.php'; ?>
 
     <main id="main-content">
         <section class="hero hero-internal">
@@ -36,7 +27,7 @@
         </section>
 
         <section style="padding: 2rem 5% 8rem;">
-            <form class="contact-form reveal" action="#" method="POST">
+            <form class="contact-form reveal" action="process-form.php" method="POST">
                 <div class="form-group">
                     <label for="name">Full Name</label>
                     <input type="text" id="name" name="name" class="form-input" required placeholder="Jane Doe">
@@ -67,24 +58,7 @@
         </section>
     </main>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <div class="logo"><span class="gold">VOTEFOR</span><span class="white">DEMOCRACY</span></div>
-                <p>Empowering Gen Z and Millennials to reclaim their democratic future.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Org</h4>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="funders.html">Funders</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">© 2026 Project OMega | All rights reserved.</div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
-    <script src="js/main.js" defer></script>
 </body>
 </html>
