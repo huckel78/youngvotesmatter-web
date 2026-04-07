@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegisTracker | Project OMega</title>
+    <meta name="description" content="Track how all 535 members of Congress vote in real-time.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="main-nav">
+        <a href="index.html" class="nav-logo"><span>Vote</span>ForDemocracy</a>
+        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html#platform" style="color: var(--gold);">Platform</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#register" class="nav-cta">Register Now</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero hero-internal">
+            <div class="hero-bg"></div>
+            <div class="hero-stars" id="stars-container" aria-hidden="true"></div>
+            
+            <div style="position: relative; z-index: 1;">
+                <span class="hero-label reveal">Accountability Module</span>
+                <h1 class="hero-title reveal">LEGIS<span class="accent">TRACKER</span></h1>
+                <p class="hero-sub reveal" style="margin: 0 auto;">No more hiding behind complex legal jargon. See exactly how your representatives are voting on the issues that matter to you.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="contact-form reveal" style="text-align: center; margin-bottom: 4rem;">
+                <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: 2.2rem; color: var(--gold); margin-bottom: 1rem;">FIND YOUR REPRESENTATIVE</h2>
+                <p style="margin-bottom: 2rem;">Enter your ZIP code to instantly see the voting record of your federal and state legislators.</p>
+                
+                <form action="#" method="GET" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                    <input type="text" name="zip" class="form-input" placeholder="Enter ZIP Code (e.g. 90210)" required style="max-width: 300px;">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true">🎯</div>
+                    <h3>Plain English Summaries</h3>
+                    <p>We use AI and legal experts to translate 1,000-page bills into 2-paragraph summaries. Know what a "YEA" vote actually means.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true">⚖️</div>
+                    <h3>Democracy Scores</h3>
+                    <p>Every member of Congress receives an automated grade (A-F) based on their votes expanding or restricting voting rights.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true">🔔</div>
+                    <h3>Real-Time Alerts</h3>
+                    <p>Sign up for SMS or email alerts the moment your specific representative casts a vote on a priority issue.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><span class="gold">VOTEFOR</span><span class="white">DEMOCRACY</span></div>
+                <p>Empowering Gen Z and Millennials to reclaim their democratic future.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Platform</h4>
+                <ul>
+                    <li><a href="legistracker.html" style="color: var(--gold);">LegisTracker</a></li>
+                    <li><a href="#">Call Your Rep</a></li>
+                    <li><a href="#">Bill Tracker</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Org</h4>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="funders.html">Funders</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">© 2026 Project OMega | All rights reserved.</div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
