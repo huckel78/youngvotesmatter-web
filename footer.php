@@ -14,27 +14,27 @@
         <div class="footer-col">
             <h4>Platform</h4>
             <ul>
-                <li><a href="legistracker.php">LegisTracker</a></li>
-                <li><a href="index.php#platform">Call Your Rep</a></li>
-                <li><a href="index.php#platform">Bill Tracker</a></li>
+                <li><a href="legistracker">LegisTracker</a></li>
+                <li><a href="index#platform">Call Your Rep</a></li>
+                <li><a href="index#platform">Bill Tracker</a></li>
             </ul>
         </div>
         
         <div class="footer-col">
             <h4>Domains</h4>
             <ul>
-                <li><a href="index.php">VoteForDemocracy.com</a></li>
-                <li><a href="index.php">YoungVotesMatter.com</a></li>
-                <li><a href="index.php">Fight4TheVote.com</a></li>
+                <li><a href="index">VoteForDemocracy.com</a></li>
+                <li><a href="index">YoungVotesMatter.com</a></li>
+                <li><a href="index">Fight4TheVote.com</a></li>
             </ul>
         </div>
         
         <div class="footer-col">
             <h4>Org</h4>
             <ul>
-                <li><a href="about.php">About</a></li>
-                <li><a href="funders.php">Funders</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="funders">Funders</a></li>
+                <li><a href="contact">Contact</a></li>
             </ul>
         </div>
     </div>
