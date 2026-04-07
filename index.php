@@ -43,19 +43,7 @@
 
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <nav id="main-nav">
-        <a href="index.html" class="nav-logo" aria-label="Vote For Democracy Home"><span>Vote</span>ForDemocracy</a>
-        <button class="menu-toggle" id="mobile-menu" aria-label="Toggle navigation" aria-expanded="false">
-            <span></span><span></span><span></span>
-        </button>
-        <ul class="nav-links">
-            <li><a href="#mission">Mission</a></li>
-            <li><a href="legistracker.html">LegisTracker</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="#register" class="nav-cta">Register Now</a></li>
-        </ul>
-    </nav>
+    <?php include 'header.php'; ?>
 
     <main id="main-content">
         <section class="hero" id="home">
@@ -70,7 +58,7 @@
                         <p class="hero-sub">Converting online political expression into real electoral action — for the generation that will decide America's future.</p>
                         <div class="btn-group">
                             <a href="#register" class="btn btn-primary">Check Registration</a>
-                            <a href="legistracker.html" class="btn btn-outline">Explore Features</a>
+                            <a href="legistracker.php" class="btn btn-outline">Explore Features</a>
                         </div>
                     </div>
                     <div class="hero-media">
@@ -318,57 +306,12 @@
             <p class="reveal" style="font-size:1.1rem; color:rgba(255,255,255,0.7); margin: 2rem auto 3rem; max-width:500px;">Your vote is the most powerful civic tool you have — and we make sure you can use it.</p>
             <div class="actions reveal">
                 <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Check Status</a>
-                <a href="contact.html" class="btn btn-outline" style="margin-left:1rem;">Find My Reps</a>
+                <a href="contact.php" class="btn btn-outline" style="margin-left:1rem;">Find My Reps</a>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="footer-grid">
-            <div class="footer-brand">
-                <div class="logo">
-                    <span class="gold">VOTEFOR</span><span class="white">DEMOCRACY</span>
-                </div>
-                <p>Empowering Gen Z and Millennials to reclaim their democratic future.</p>
-                <div class="footer-pills">
-                    <span class="footer-pill">501(c)(4)</span>
-                    <span class="footer-pill">501(c)(3)</span>
-                </div>
-            </div>
-            
-            <div class="footer-col">
-                <h4>Platform</h4>
-                <ul>
-                    <li><a href="legistracker.html">LegisTracker</a></li>
-                    <li><a href="#platform">Call Your Rep</a></li>
-                    <li><a href="#platform">Bill Tracker</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-col">
-                <h4>Domains</h4>
-                <ul>
-                    <li><a href="index.html">VoteForDemocracy.com</a></li>
-                    <li><a href="index.html">YoungVotesMatter.com</a></li>
-                    <li><a href="index.html">Fight4TheVote.com</a></li>
-                </ul>
-            </div>
-            
-            <div class="footer-col">
-                <h4>Org</h4>
-                <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="funders.html">Funders</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            © 2026 Project OMega | Built for the next generation. All rights reserved.
-        </div>
-    </footer>
+    <?php include 'footer.php'; ?>
 
-    <script src="js/main.js" defer></script>
 </body>
 </html>
